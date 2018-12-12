@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/OpenStruct.iml" filepath="$PROJECT_DIR$/.idea/OpenStruct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OpenStructTest/.idea/OpenStructTest.iml" filepath="$PROJECT_DIR$/../OpenStructTest/.idea/OpenStructTest.iml" />
     </modules>
   </component>
 </project>

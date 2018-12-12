@@ -3,6 +3,7 @@ last name: Panne
 age: 43
 address: Pannenstreet 345 Upstate Pannentown
 car: hat ne Panne
+e-mail : peter_panne@gmail.com
 ###
 first name: Lisa
 last name: Panne
@@ -16,3 +17,11 @@ age: 56
 address: Bahnhof Str. 12 a 15890 Eisenhüttenstadt
 car: JD 9RX
 ###
+first name: Horst
+last name: Kohlmann
+###
+first name: Dieter
+age: 66
+###
+age:45
+name: Gabi
