@@ -26,7 +26,7 @@ class PersonStruct < OpenStruct
       name_string << "#{' ' unless name_string.empty?}#{v}"
     end
 
-    name_string.empty? ? __id__ : name_string
+    name_string.empty? ? "#<#{self.class}> (no names found)" : name_string
   end
 
   def list_attributes
@@ -37,5 +37,9 @@ class PersonStruct < OpenStruct
       attributes << "#{', ' unless attributes.empty?}#{k}: #{v}"
     end
     attributes
+  end
+
+  def list_with_name
+    "#{to_s} #{'(' + list_attributes + ')' if @table.size > 2 }"
   end
 end
